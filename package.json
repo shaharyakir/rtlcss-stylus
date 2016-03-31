@@ -1,0 +1,30 @@
+{
+  "name": "rtlcss-stylus",
+  "description": "rtl css for stylus",
+  "version": "0.0.1",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "3.5.0",
+    "coffee-script": "1.10.0",
+    "coveralls": "2.11.9",
+    "css-parse": "2.0.0",
+    "istanbul": "0.4.2",
+    "mocha": "2.4.5",
+    "mocha-lcov-reporter": "1.2.0",
+    "stylus": "0.54.2"
+  },
+  "author": "Shahar Yakir",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "coveralls": "istanbul cover _mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | coveralls && rm -rf ./coverage",
+    "coverage": "istanbul cover _mocha --report html -- -R spec && open coverage/index.html"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "dependencies": {
+    "rtlcss": "2.0.3",
+    "postcss": "5.0.19"
+  }
+}
