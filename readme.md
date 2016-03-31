@@ -5,6 +5,8 @@ A simple Stylus middleware wrapper for the excellent RTL-CSS
 
 An [rtlcss](https://github.com/MohammadYounes/rtlcss) plugin for stylus.
 
+[![tests](https://img.shields.io/travis/shaharyakir/rtlcss-stylus/master.svg?style=flat)](https://travis-ci.org/shaharyakir/rtlcss-stylus)
+
 ### Installation
 
 You can install through npm as such: `npm install rtlcss-stylus`
