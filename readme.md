@@ -1,4 +1,4 @@
-RTL-CSS
+rtlcss-stylus
 -------------------
 
 A simple Stylus middleware wrapper for the excellent RTL-CSS
