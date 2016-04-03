@@ -13,6 +13,10 @@
     "mocha-lcov-reporter": "1.2.0",
     "stylus": "0.54.2"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shaharyakir/rtlcss-stylus.git"
+  },
   "author": "Shahar Yakir",
   "main": "index.js",
   "scripts": {
