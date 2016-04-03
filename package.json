@@ -1,7 +1,7 @@
 {
   "name": "rtlcss-stylus",
   "description": "rtl css for stylus",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "license": "MIT",
   "devDependencies": {
     "chai": "3.5.0",
